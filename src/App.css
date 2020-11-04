@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Dancing+Script:wght@700&display=swap");
+
+body {
+  color: white;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+  text-align: center;
+  background: #00416a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e4e5e6,
+    #00416a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e4e5e6,
+    #00416a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title {
+  text-align: center;
+  color: white;
+  font-size: 70px;
+}
+.container {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 200px;
+}
+
+li {
+  list-style: none;
+  color: white;
+  font-size: 150%;
+}
+
+h1 {
+  color: white;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  flex: 0 0 50px;
+}

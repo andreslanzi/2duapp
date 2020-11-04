@@ -4,7 +4,6 @@
 body {
   color: white;
   font-family: "Architects Daughter", cursive;
-  font-size: 20px;
   text-align: center;
   background: #00416a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -17,9 +16,6 @@ body {
     #e4e5e6,
     #00416a
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .app-title {
@@ -27,33 +23,25 @@ body {
   color: white;
   font-size: 70px;
 }
-.container {
-  /* border: 2px solid white; */
-  border-radius: 10px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
-  margin-bottom: 200px;
-}
-
-li {
-  list-style: none;
-  color: white;
-  font-size: 150%;
-}
 
 h1 {
   color: white;
   font-family: "Dancing Script", cursive;
   text-align: center;
+  word-spacing: 15px;
 }
 
 footer {
-  position: fixed;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
-  flex: 0 0 50px;
+}
+
+li {
+  font-size: 2.5vh;
+  list-style: none;
+  word-break: break-all;
+  color: #67a8d1;
 }
